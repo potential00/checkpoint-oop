@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <h1>Shop Product</h1>
+  
+  <div class="section1">
+    <div class="card1">
+      <h1 class="cart-title">PS4</h1>
+      <div class="img1">
+        <div class="fa-heart1"><i class="fa-regular fa-heart"></i></div>
+        <img class="cart-img" src="./images/PS4.png" alt="Shoe" />
+      </div>
+      <div class="price-button">
+        <p class="cart-price">$20.99</p>
+        <button class="button">Add To Cart</button>
+      </div>
+    </div>
+  
+    <div class="card1">
+      <h1 class="cart-title">Watch Dogs</h1>
+      <div class="img1">
+        <div class="fa-heart1"><i class="fa-regular fa-heart"></i></div>
+        <img class="cart-img" src="./images/watchdog.png" alt="watch dogs" />
+      </div>
+      <div class="price-button">
+        <p class="cart-price">$6.78</p>
+        <button class="button">Add To Cart</button>
+      </div>
+    </div>
+
+    <div class="card1">
+      <h1 class="cart-title">Apple Watch</h1>
+      <div class="img1">
+        <div class="fa-heart1"><i class="fa-regular fa-heart"></i></div>
+        <img class="cart-img" src="./images/applewatch.png" alt="Apple Watch" />
+      </div>
+      <div class="price-button">
+        <p class="cart-price">$199.45</p>
+        <button class="button">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section2">
+    <div class="everything">
+      <div class="cart-header">
+        <h1>Welcome To Your Cart</h1>
+        <h2>Summary</h2>
+      </div>
+      <div class="names">
+        <h3>Item</h3>
+        <h3>Price</h3>
+        <h3>Quantity</h3>
+      </div>
+      <div class="items">
+        <!-- Dynamic cart items will be added here -->
+      </div>
+      <div class="total">
+        <h2>TOTAL</h2>
+        <p id="totalp">$0</p>
+      </div>
+      <div class="purchase">
+        <button>Purchase</button>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
